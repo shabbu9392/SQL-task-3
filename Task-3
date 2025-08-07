@@ -1,0 +1,11 @@
+SELECT * FROM customers;
+SELECT name, email FROM customers; 
+----WHERE-----
+SELECT * FROM orders WHERE amount > 100;
+---AND/OR---
+SELECT * FROM users WHERE age > 18 AND city = 'Delhi';
+---BETWEEN-----
+SELECT * FROM sales WHERE date BETWEEN '2023-01-01' AND '2023-12-31'
+---ORDER----
+SELECT * FROM items ORDER BY price;
+SELECT * FROM items ORDER BY price DESC;
